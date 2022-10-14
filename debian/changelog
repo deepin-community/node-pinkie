@@ -1,0 +1,39 @@
+node-pinkie (2.0.4-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace
+  * Use secure copyright file specification URI
+  * Bump debhelper from deprecated 9 to 12
+  * Set debhelper-compat version in Build-Depends
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse
+  * Update Vcs-* headers from URL redirect
+  * Use canonical URL in Vcs-Git
+  * Apply multi-arch hints
+    + node-pinkie: Add Multi-Arch: foreign
+  * Bump debhelper from old 12 to 13
+
+  [ Yadd ]
+  * Declare compliance with policy 4.6.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+    * Fix filenamemangle
+    * Fix GitHub tags regex
+  * Drop dependency to nodejs
+  * Use dh-sequence-nodejs auto install
+  * Enable upstream test
+    * Embed buf-compare, core-assert, promises-aplus-tests and to-iso-string
+      for test only
+    * Add test dependencies: mocha, node-sinon and node-underscore
+
+ -- Yadd <yadd@debian.org>  Tue, 16 Nov 2021 22:55:44 +0100
+
+node-pinkie (2.0.4-1) unstable; urgency=low
+
+  * Initial release (Closes: #843183)
+
+ -- Shanavas M <shanavas@disroot.org>  Fri, 04 Nov 2016 17:16:01 +0000
